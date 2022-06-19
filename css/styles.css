@@ -354,19 +354,22 @@ img {
 /* Section Portfolio */
 
 .portfolio-btn-list{
-    flex-basis: 611px;
-    --indent: 8px;
+    display: flex;
+    margin-bottom: 50px;
+   
+    
+    
+    /* background-color:  teal; */
+   
 }
 
-.btn-item{
-    --items: 5;
-    --indent: 8px;
+.btn-item:not(:last-child) {
+    margin-right: 8px;
 }
-    
 
 .portfolio-btn {
     padding: 6px 22px;
-    box-sizing: 0;
+    
 
     font-family: inherit;
     font-weight: 500;
@@ -390,6 +393,8 @@ img {
 
 .portfolio-list{
     --items: 3;
+
+    /* background-color: tomato; */
     }
 
 .project {
